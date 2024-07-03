@@ -1,0 +1,292 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed;
+    background-color:#094368;
+    width: 100%;
+
+}
+.profile h1{
+    color: white;
+    font-size: 2vw;
+}
+
+.nav-link{
+    margin-top: 1vw;
+
+}
+
+.nav-link a{
+    margin:0 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.introduction{
+    display: flex;
+    background-color: #EAE2BE ;
+    max-width: 100%;
+}
+
+.paragraph{
+    padding: 20px 30px;
+}
+
+.paragraph > p{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.learning-links {
+ display:flex;
+ justify-content: space-between;
+ margin-top: 30px;
+}
+
+.learning-links  a{
+    border: 1px solid #094368;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #094368;
+    border-radius: 27px;
+}
+
+
+
+.essay{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.essay h1{
+    text-align: center;
+    font-size: 3vw;
+}
+
+.essay p{
+    line-height: 1.8;
+    font-size: large;
+    margin-top: 10px;
+    text-align:justify;
+}
+
+.end{
+    text-align: center;
+}
+
+.end > p{
+    font-size: 30px;
+    color: rgb(134, 12, 134);
+}
+
+
+@media only screen and (max-width: 414px){
+    .navbar{  
+        min-width: 50%;
+        justify-content: space-between;
+    }
+
+    .profile h1{
+        color: white;
+        font-size: 20px;
+    }
+
+    
+    .nav-link a{
+         margin:0 8px; 
+        font-size: 12px;
+    }
+
+    .introduction{
+        display: block;
+    }
+
+    .paragraph h1{
+        font-size: 20px;
+    }
+    
+    
+    .paragraph > p{
+        font-size: 16px;
+        text-align: justify;
+    }
+    
+    .learning-links {
+     display:flex;
+     justify-content: space-between; 
+     margin-top: 30px;
+    }
+
+    .learning-links  a{
+        border: 1px solid #094368;
+        padding: 8px 17px;
+        font-size: 16px;
+    }
+
+    .display-img img{
+        max-width: 100%;
+        background-position: 100%;  
+    }
+
+    .essay h1{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .essay p{
+        line-height: 1.6;
+        font-size: 16px;
+        margin-top: 10px;
+        text-align:justify;
+    }
+
+    .end > p{
+        font-size: 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 824px){
+    .navbar{  
+        min-width: 50%;
+        justify-content: space-between;
+    }
+
+    .profile h1{
+        font-size: 30px;
+    }
+
+    
+    .nav-link a{
+         margin:0 10px; 
+         font-size: 2vh;
+    }
+
+    .introduction{
+        display: block;
+    }
+
+    .paragraph h1{
+        font-size: 30px;
+    }
+    
+    
+    .paragraph > p{
+        font-size: 16.8px;
+        text-align: justify;
+    }
+    
+    .learning-links {
+     display:flex;
+     justify-content: space-between; 
+     margin-top: 30px;
+    }
+
+    .learning-links  a{
+        border: 1px solid #094368;
+        padding: 8px 17px;
+        font-size: 16px;
+        background-color: #094368;
+    }
+
+    .display-img img{
+        max-width: 100%;
+        background-position: 100%;  
+    }
+
+    .essay h1{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .essay p{
+        line-height: 1.6;
+        font-size: 16px;
+        margin-top: 10px;
+        text-align:justify;
+    }
+
+    .end > p{
+        font-size: 27px;
+    }
+    
+}
+
+ @media only screen and (max-width:1300px) {
+    .navbar{  
+        min-width: 50%;
+        justify-content: space-between;
+    }
+
+    .profile h1{
+        color: white;
+        font-size: 27px;
+    }
+
+    
+    .nav-link a{
+         margin:0 10px; 
+         font-size: 2vh;
+    }
+
+    .introduction{
+        display: block;
+    
+    }
+
+    .paragraph h1{
+        font-size: 30px;
+    }
+    
+    
+    .paragraph > p{
+        font-size: 17px;
+        text-align: justify;
+    }
+    
+    .learning-links {
+     display:flex;
+     justify-content: center; 
+     margin-top: 30px;
+    }
+
+    .learning-links  a{
+        border: 1px solid #094368;
+        padding: 8px 17px;
+        font-size: 17px;
+    }
+
+    .display-img img{
+        max-width: 100%;
+        background-position: 100%;  
+    } 
+
+     .essay h1{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .essay p{
+        line-height: 1.6;
+        font-size: 17px;
+        margin-top: 10px;
+        text-align:justify;
+    }
+
+    .end > p{
+        font-size: 20px;
+    }
+}
+
+ 
